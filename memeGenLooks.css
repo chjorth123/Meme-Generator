@@ -1,0 +1,56 @@
+.disable{
+    display: none;
+}
+.enable{
+    display: block;
+}
+.divlist {
+    display: flex;
+    justify-content: center;
+}
+#main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightgreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#submain{
+    text-align: center;
+}
+#create{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: greenyellow;
+    margin-bottom: 38px;
+}
+#divbutton{
+    text-align: center;
+}
+#createform{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#submitbutton{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: greenyellow;
+    margin-bottom: 38px;
+}
+#memelist{
+    list-style: none;
+}
+#removebutton{
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: lightcoral;
+    margin-left: 10px;
+}

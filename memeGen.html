@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="memeGenLooks.css">
+        <title>Meme Generator</title>
+    </head>
+    <body>
+        <h1 id='main'>CreMeme</h1>
+        <h3 id='submain'>CreMeme is a meme generator website!</h3>
+        <div id='divbutton'>
+            <button id='create'>Create New Meme!</button>
+        </div>
+        
+        <div>
+            <form id='createform' class='disable' class='enable' >
+                <span id='chicken'>Enter Image URL:</span><br>
+                <input id='imgurl' type = 'text' size='50' value = "" name='todoitem'><br>
+                <span class='formitems'>Enter text to put at the top of the meme:</span><br>
+                <input id='toptext' type='text' size='50' name='Top Text'><br>
+                <span class='formitems'>Enter text to put at the bottom of the meme:</span><br>
+                <input id='bottomtext' type='text' size='50' name='Bottom Text'><br>
+                <input id='submitbutton' type='submit' value='Create Meme'>
+            </form>
+        </div>
+        
+        <div class='divlist'>
+            <ul id='memelist' type="1">
+            </ul>
+        </div>
+        <script src="memeGenLogic.js"></script>
+    </body>
+</html>
